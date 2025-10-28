@@ -87,7 +87,7 @@
         </div>
         <p class="text-sm text-gray-600 mt-2">{{ ticket.description }}</p>
         <p class="text-xs text-gray-400 mt-2">
-          {{ new Date(ticket.createdAt).toLocaleString() }}
+          {{ new Date(ticket.createdAt).toLocaleDateString('en-US') + ' ' + new Date(ticket.createdAt).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' }) }}
         </p>
 
         <div class="flex space-x-2 mt-4">

@@ -26,7 +26,7 @@
 
         <button
           type="submit"
-          class="w-full bg-primary text-white py-2 rounded-lg hover:opacity-90 transition"
+          class="w-full bg-[#2563eb] text-white py-2 rounded-lg hover:opacity-90 transition"
         >
           Login
         </button>
@@ -34,7 +34,7 @@
 
       <p class="text-sm text-gray-600 text-center mt-4">
         Don’t have an account?
-        <router-link to="/auth/signup" class="text-primary font-medium">Sign up</router-link>
+        <router-link to="/auth/register" class="text-[#2563eb] font-medium">Sign up</router-link>
       </p>
     </div>
   </div>

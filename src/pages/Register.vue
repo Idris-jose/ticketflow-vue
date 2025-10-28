@@ -9,7 +9,7 @@
           <input
             v-model="name"
             type="text"
-            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-primary focus:border-primary"
+            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-[#2563eb] focus:border-[#2563eb]"
             required
           />
         </div>
@@ -19,7 +19,7 @@
           <input
             v-model="email"
             type="email"
-            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-primary focus:border-primary"
+            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-[#2563eb] focus:border-[#2563eb]"
             required
           />
         </div>
@@ -29,14 +29,14 @@
           <input
             v-model="password"
             type="password"
-            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-primary focus:border-primary"
+            class="w-full border border-gray-300 rounded-lg p-2 focus:ring-[#2563eb] focus:border-[#2563eb]"
             required
           />
         </div>
 
         <button
           type="submit"
-          class="w-full bg-primary text-white py-2 rounded-lg hover:opacity-90 transition"
+          class="w-full bg-[#2563eb] text-white py-2 rounded-lg hover:opacity-90 transition"
         >
           Sign Up
         </button>
@@ -44,7 +44,7 @@
 
       <p class="text-sm text-gray-600 text-center mt-4">
         Already have an account?
-        <router-link to="/auth/login" class="text-primary font-medium">Login</router-link>
+        <router-link to="/auth/login" class="text-[#2563eb] font-medium">Login</router-link>
       </p>
     </div>
   </div>

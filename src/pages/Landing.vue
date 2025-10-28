@@ -1,14 +1,14 @@
 <template>
   <div class="relative overflow-hidden bg-gradient-to-b from-white to-blue-50 min-h-screen">
     <!-- Decorative Circles -->
-    <div class="absolute top-16 -left-20 w-64 h-64 bg-blue-200 rounded-full opacity-40 blur-2xl"></div>
-    <div class="absolute bottom-10 -right-16 w-72 h-72 bg-orange-200 rounded-full opacity-40 blur-2xl"></div>
+    <div class="absolute top-16 -left-20 w-64 h-64 bg-blue-500 rounded-full opacity-40 blur-2xl"></div>
+    <div class="absolute bottom-10 -right-16 w-72 h-72 bg-orange-500 rounded-full opacity-40 blur-2xl"></div>
 
     <!-- Hero Section -->
     <section :class="`${MAX_CONTAINER_WIDTH} mx-auto px-6 py-24 flex flex-col md:flex-row items-center justify-between`">
       <div class="md:w-1/2 space-y-6 z-10">
         <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">
-          Ticket<span class="text-primary">Flow</span>
+          Ticket<span class="text-[#2563eb]">Flow</span>
         </h1>
         <p class="text-gray-600 text-lg">
           Manage your team’s issues seamlessly — create, track, and resolve
@@ -17,13 +17,13 @@
         <div class="flex gap-4 mt-6">
           <RouterLink
             to="/auth/login"
-            class="bg-primary text-white px-6 py-3 rounded-xl shadow hover:opacity-90 transition"
+            class="bg-[#2563eb] text-white px-6 py-3 rounded-xl shadow hover:opacity-90 transition"
           >
             Login
           </RouterLink>
           <RouterLink
             to="/auth/register"
-            class="border border-primary text-primary px-6 py-3 rounded-xl hover:bg-primary/10 transition"
+            class="border border-[#2563eb] text-[#2563eb] px-6 py-3 rounded-xl hover:bg-primary/10 transition"
           >
             Get Started
           </RouterLink>
