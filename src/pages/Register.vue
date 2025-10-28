@@ -1,5 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col items-center justify-center bg-blue-50">
+    <div className="max-w-7xl mx-auto p-6">
     <div class="bg-white p-8 rounded-2xl shadow w-full max-w-md">
       <h1 class="text-2xl font-bold mb-6 text-center">Create Account</h1>
 
@@ -47,6 +48,7 @@
         <router-link to="/auth/login" class="text-[#2563eb] font-medium">Login</router-link>
       </p>
     </div>
+  </div>
   </div>
 </template>
 
