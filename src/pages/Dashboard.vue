@@ -37,15 +37,7 @@
       <canvas ref="chartRef" height="300"></canvas>
     </div>
 
-    <!-- Navigation -->
-    <div class="text-center">
-      <button
-        @click="router.push('/tickets')"
-        class="bg-blue-600 text-white px-6 py-2 rounded-xl"
-      >
-        Manage Tickets
-      </button>
-    </div>
+    
   </div>
 </template>
 
